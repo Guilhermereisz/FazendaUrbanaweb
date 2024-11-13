@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <link rel="stylesheet" href="~/css/site.css">
+    <div id="Logo">
+        <img src="~/imagens/telacidade verde.png" alt="">
+        <h1>Cadastro</h1>
+
+    <div class="cadastro-email">
+            <input id="cadastro-email" type="text" name="email" placeholder="Email" required>
+    </div>
+
+    <div class="nome-completo">
+        <input id="Nome Completo" type="text" name="fullname" placeholder="Nome Completo" required>
+    </div>    
+
+    <div class="num-celular">
+    <input id="num-celular" type="text" name="num-celular" placeholder="Número de celular" required>
+    </div>
+
+    <div class="cep">
+        <input id="CEP" type="text" name="CEP" placeholder="CEP" required>
+    </div>
+
+    <div class="cadastro-senha">
+        <input id="cadastro-senha" type="password" name="cadastro-senha" placeholder="Senha" required>
+    </div>
+
+    <div class="confirmar-senha">
+        <input id="confirmar-senha" type="password" name="confirmar-senha" placeholder="Confirmar senha" required>
+    </div>
+
+    <div class="cadastro-button">
+        <button>
+            <a href="Home/Paginainicial">Cadastrar</a>
+        </button>
+    </div>
+</body>

@@ -1,0 +1,543 @@
+#container {
+    width: 360px;
+    margin: 56px auto 0px;
+    padding: 0 24px;
+}
+
+#Logo {
+    text-align: center;
+    padding: 24px;
+}
+
+    #Logo img {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        padding: 4px;
+    }
+
+h1 {
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.email-box {
+    text-align: center;
+    color: black;
+}
+
+    .email-box input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 10px;
+        height: 30px;
+        width: 300px;
+    }
+
+        .email-box input::placeholder {
+            color: black;
+        }
+
+.senha-box {
+    text-align: center;
+    padding: 10px;
+}
+
+    .senha-box input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 10px;
+        height: 30px;
+        width: 300px;
+    }
+
+        .senha-box input::placeholder {
+            color: black;
+        }
+
+.esqueci-box {
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .esqueci-box a {
+        text-decoration: none;
+        color: green;
+    }
+
+.entrar-button {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+    .entrar-button button {
+        padding: 15px;
+        border-radius: 20px;
+        margin: auto;
+        width: 300px;
+        cursor: pointer;
+        background-color: darkgreen;
+    }
+
+    .entrar-button a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+.cadastrar-box {
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+    .cadastrar-box button {
+        border-radius: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        width: 200px;
+        cursor: pointer;
+        background-color: darkgreen;
+    }
+
+        .cadastrar-box button a {
+            color: white;
+            text-decoration: none;
+        }
+
+    .cadastrar-box label {
+        color: green;
+    }
+
+.container-home {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 18rem;
+}
+
+    .container-home h1 {
+        font-family: "Itim",cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkgreen;
+        text-align: center;
+        font-size: 80px;
+    }
+
+    .container-home h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: yellowgreen;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Itim",cursive;
+    }
+
+.imagens {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+    .imagens img {
+        align-items: center;
+        width: 190px;
+    }
+
+.cenoura:nth-child(1) {
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+
+.berinjela:nth-child(2) {
+    border: 5px solid grey; /* Borda para a segunda imagem */
+    border-radius: 20px;
+}
+
+.botoes-cima {
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.botao-1 {
+    margin-right: 40px;
+    margin-left: 90px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao2 {
+    margin-left: 165px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao3 {
+    margin-left: 210px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.cebola:nth-child(3) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+
+.imagens2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+    .imagens2 img {
+        width: 190px;
+    }
+
+.milho:nth-child(1) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+.tomate:nth-child(2) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+.pepino:nth-child(3) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+.botao4 {
+    margin-right: 40px;
+    margin-left: 90px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao5 {
+    margin-left: 165px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao6 {
+    margin-left: 210px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.cadastro-email {
+    text-align: center;
+    padding: 5px;
+}
+
+    .cadastro-email input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 5px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .cadastro-email ::placeholder {
+        color: black;
+    }
+
+.nome-completo {
+    text-align: center;
+    padding: 5px;
+}
+
+    .nome-completo input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 5px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .nome-completo ::placeholder {
+        color: black;
+    }
+
+.num-celular {
+    text-align: center;
+    padding: 5px;
+}
+
+    .num-celular input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 5px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .num-celular ::placeholder {
+        color: black;
+    }
+
+.cep {
+    text-align: center;
+    padding: 5px;
+}
+
+    .cep input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 5px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .cep ::placeholder {
+        color: black;
+    }
+
+.cadastro-senha {
+    text-align: center;
+    padding: 5px;
+}
+
+    .cadastro-senha input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 5px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .cadastro-senha ::placeholder {
+        color: black;
+    }
+
+.confirmar-senha {
+    text-align: center;
+    padding: 5px;
+}
+
+    .confirmar-senha input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 5px;
+        width: 300px;
+        height: 30px;
+    }
+
+    .confirmar-senha ::placeholder {
+        color: black;
+    }
+
+.cadastro-button {
+    text-align: center;
+    padding: 25px;
+}
+
+    .cadastro-button button {
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        background-color: darkgreen;
+    }
+
+    .cadastro-button a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+.container-home {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 18rem;
+}
+
+    .container-home h1 {
+        font-family: "Itim",cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: darkgreen;
+        text-align: center;
+        font-size: 80px;
+    }
+
+    .container-home h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: yellowgreen;
+        text-align: center;
+        font-size: 30px;
+        font-family: "Itim",cursive;
+    }
+
+.imagens {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+    .imagens img {
+        align-items: center;
+        width: 190px;
+    }
+
+.cenoura:nth-child(1) {
+    border: 5px solid grey;
+    border-radius: 20px;
+}
+
+.berinjela:nth-child(2) {
+    border: 5px solid grey; /* Borda para a segunda imagem */
+    border-radius: 20px;
+}
+
+.botoes-cima {
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.botao-1 {
+    margin-right: 40px;
+    margin-left: 90px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao2 {
+    margin-left: 165px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao3 {
+    margin-left: 210px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.cebola:nth-child(3) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+
+.imagens2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+    .imagens2 img {
+        width: 190px;
+    }
+
+.milho:nth-child(1) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+.tomate:nth-child(2) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+.pepino:nth-child(3) {
+    border: 5px solid grey; /* Borda para a terceira imagem */
+    border-radius: 20px;
+}
+
+.botao4 {
+    margin-right: 40px;
+    margin-left: 90px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao5 {
+    margin-left: 165px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.botao6 {
+    margin-left: 210px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.pedido-registrado h3 {
+    color: green;
+    font-size: 20px;
+}
+
+.pedido-registrado button {
+    width: 100px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    font-style: none;
+}

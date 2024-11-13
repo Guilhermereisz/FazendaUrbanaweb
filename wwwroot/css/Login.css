@@ -1,0 +1,99 @@
+﻿body {
+}
+h1 {
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.email-box {
+    text-align: center;
+    color: black;
+}
+
+    .email-box input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 10px;
+        height: 30px;
+        width: 300px;
+    }
+
+        .email-box input::placeholder {
+            color: black;
+        }
+
+.senha-box {
+    text-align: center;
+    padding: 10px;
+}
+
+    .senha-box input {
+        background-color: rgb(178, 211, 178);
+        border-radius: 10px;
+        height: 30px;
+        width: 300px;
+    }
+
+        .senha-box input::placeholder {
+            color: black;
+        }
+
+.esqueci-box {
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .esqueci-box a {
+        text-decoration: none;
+        color: green;
+    }
+
+.entrar-button {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+    .entrar-button button {
+        padding: 15px;
+        border-radius: 20px;
+        margin: auto;
+        width: 300px;
+        cursor: pointer;
+        background-color: darkgreen;
+    }
+
+    .entrar-button a {
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+.cadastrar-box {
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+    .cadastrar-box button {
+        border-radius: 30px;
+        text-align: center;
+        margin: auto;
+        padding: 15px;
+        width: 200px;
+        cursor: pointer;
+        background-color: darkgreen;
+    }
+
+        .cadastrar-box button a {
+            color: white;
+            text-decoration: none;
+        }
+
+    .cadastrar-box label {
+        color: green;
+    }
